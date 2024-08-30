@@ -1,0 +1,341 @@
+.light-theme {
+  --bg-img: url("./assets/light.png");
+  --bg-offhead: #cecece6b;
+  --nav-bg: white;
+  --clr-: white;
+  --bg-protect: white;
+  --modal-content: white;
+  --text-white: black;
+}
+
+.dark-theme {
+  --text-white: white;
+  --modal-content: black;
+  --bg-protect: transparent;
+
+  --bg-img: url("./assets/dark.png");
+  --bg-offhead: #000000b8;
+  --nav-bg: white;
+  --clr-: black;
+}
+.lighttext {
+  /* color: var(--text-white); */
+  color: white;
+}
+label {
+  color: white;
+}
+
+.modal-content {
+  backdrop-filter: blur(37px);
+  /* background: rgba(25, 27, 31, 0.9); */
+  border-bottom: 1px solid rgb(25, 27, 31);
+  transition: background-color 0.25s ease 0s;
+  background-color: transparent !important;
+  border-color: #0d6efd;
+}
+.modal-content p {
+  color: var(--nav-bg);
+}
+.modal-body .input-group-text {
+  background-color: var(--clr-);
+}
+.modal-body .form-control {
+  /* background-color: var(--clr-); */
+  background-color: white;
+  color: white;
+  /* color: var(--nav-bg); */
+}
+/* .nav-item a {
+  color: #7e7f8a !important;
+} */
+/* .collapse:not(.show){
+  display: flex !important;
+} */
+#nav-dropdown-dark-example .collapse:not(.show) {
+  display: block !important;
+}
+.ethe .dropdown-menu {
+  width: 300px !important;
+}
+.input-group-text svg {
+  color: var(--nav-bg);
+}
+
+.disabledDiv {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.enabledDiv {
+  cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.bg-transparent .accordion-button,
+.bg-transparent .accordion-body {
+  background-color: transparent !important;
+  /* Using !important to ensure override */
+}
+
+/* Set the scrollbar width to 10px */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Set the scrollbar height for horizontal scrollbar */
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+.customHeight {
+  min-height: calc(100vh - 180px);
+}
+
+.customCss {
+  position: absolute;
+  /* right: 0; */
+  width: 97%;
+  margin: 10px;
+  z-index: 1;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the scroll thumb */
+  border-radius: 4px;
+  /* Rounded corners on thumb */
+}
+
+/* Hover effect for thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the track */
+  border-radius: 4px;
+  /* Rounded corners on track */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the track */
+  border-radius: 4px;
+  /* Rounded corners on track */
+}
+
+.margin {
+  padding-top: 80px !important;
+}
+
+/* [data-rk] .iekbcc0{
+  justify-content: start !important;
+} */
+.nav-item {
+  color: white !important;
+}
+
+.main_grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.div_tooltip {
+  display: inline-block;
+}
+.div_tooltip:hover .tooltip {
+  visibility: visible;
+}
+
+.tooltip {
+  position: relative;
+  top: 20px;
+  left: -50%;
+  display: inline;
+  visibility: hidden;
+  background: #eee;
+}
+/* .iekbcc0 .ju367va .ju367v1n{
+ 
+}
+[data-rk] .ju367v1n{
+  gap: 0px !important;
+  background-color: white !important;
+  border-radius: 20px !important;
+}
+[data-rk] ._12cbo8i6, [data-rk] ._12cbo8i6::after{
+  border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+[data-rk] ._12cbo8i4, [data-rk] ._12cbo8i4::after{
+  border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+[data-rk] .ju367vec{
+  box-shadow: 0px !important;
+} */
+
+.pt-17 {
+  padding-top: 17px;
+}
+.remove_mb p {
+  margin-bottom: 0px;
+}
+.dropdown-menu {
+  /* background-color: #270515;
+  color: white;
+  border-radius: 10px; */
+  /* background-color: #292E41; */
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+  /* background: rgba(25, 27, 31, 0.9); */
+  border-bottom: 1px solid rgb(25, 27, 31);
+  transition: background-color 0.25s ease 0s;
+  background-color: transparent;
+  /* border: 1px solid white !important; */
+  border: 1px solid #0d6efd !important;
+}
+.dropdown-item:hover {
+  background-color: #270515 !important;
+  font-weight: bolder;
+}
+.new_clr a:hover {
+  font-weight: bolder;
+}
+.color_text {
+  color: var(--nav-bg);
+}
+.color_close {
+  color: var(--nav-bg);
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent !important;
+}
+.modal-backdrop.show {
+  opacity: 0 !important;
+  display: none !important;
+}
+
+/* Initially hide the button group */
+.mobile-only-buttons {
+  display: none;
+}
+.pc-only-cards {
+  display: block;
+}
+
+.mobile-only-cards {
+  display: none;
+}
+.radius_box {
+  border-radius: 16px;
+}
+
+.timerpadding {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.newPageWidth {
+  width: 50%;
+}
+
+.tabledivPaddingTop {
+  padding-top: 70px;
+}
+
+.popupWidth {
+  width: 75%;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .customHeight {
+    min-height: calc(100vh - 280px);
+  }
+
+  .passwordModal {
+    margin-top: 80px;
+  }
+
+  /* Your CSS styles for the front screen go here */
+  /* For example, adjust font size or layout */
+  .timerpadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .newPageDiv {
+    flex-direction: column-reverse !important;
+    gap: 0 !important;
+  }
+  .newPageWidth {
+    width: 90%;
+  }
+  .tablediv {
+    width: 100% !important;
+  }
+  .tabledivPaddingTop {
+    padding-top: 0;
+  }
+  .popupWidth {
+    width: 100%;
+  }
+  .fairDistPadding {
+    padding-top: 30px !important;
+  }
+
+  .passwordModal {
+    margin-top: 80px;
+  }
+  .customHeight {
+    min-height: calc(100vh - 280px);
+  }
+  .homePageBottom {
+    margin-bottom: 0 !important;
+  }
+  .margin {
+    padding-top: 0px !important;
+  }
+  .mobilepadding {
+    padding-left: 20px;
+  }
+  .btn-group {
+    width: 55% !important;
+  }
+}
+/* Show the button group for screens with max-width of 1024px (generally considered the breakpoint for tablets and below) */
+@media (max-width: 1024px) {
+  .passwordModal {
+    margin-top: 80px;
+  }
+  .mobile-only-buttons {
+    display: block;
+  }
+  .pc-only-cards {
+    display: none;
+  }
+  .mobile-only-cards {
+    display: block;
+  }
+  .timerpadding {
+    padding-left: 0 !important;
+    /* padding-right: 0 !important; */
+  }
+}

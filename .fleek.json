@@ -1,0 +1,10 @@
+{
+  "build": {
+    "image": "node:alpine",
+    "command": "yarn && yarn build ",
+    "publicDir": "build",
+    "environment": {
+      "SOME_ENV": "Build finished!"
+    }
+  }
+}
