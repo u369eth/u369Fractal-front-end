@@ -9,13 +9,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 const queryClient = new QueryClient();
 
 // 1. Get projectId from https://cloud.walletconnect.com
-const projectId = "57e2bfc448b03acf1c279af0d4de3a30";
+const projectId = "67219601b1c02c6cc23d3b3fca52eb22";
 
 // 2. Create wagmiConfig
 const metadata = {
   name: "u369fractal.eth",
   description: "u369 Security Token Donations",
-  url: "https://u369fractaleth.on.fleek.co", // origin must match your domain & subdomain
+  url: "https://u369fractal.eth.limo", // origin must match your domain & subdomain
   icons: [""],
 };
 

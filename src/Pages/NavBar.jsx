@@ -102,7 +102,7 @@ function NavbarMenu() {
             </NavLink>
             <NavLink
               className="ms-lg-2  ms-0 p-lg-2 p-0 text-decoration-none text-white navlinks"
-              to="https://u369crypto.on.fleek.co/home"
+              to="https://u369.eth.limo/home"
               // target="blank"
               onClick={closeNavbar}>
               Go back to u369.eth
